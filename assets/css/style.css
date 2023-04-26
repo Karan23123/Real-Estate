@@ -1,0 +1,724 @@
+body {
+  background-color: #f8faff;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.85em;
+  letter-spacing: 0px;
+}
+
+h2,
+h2 a {
+  text-shadow: 3px 3px #dbe7fe;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: #1e247e;
+}
+
+.color-green {
+  color: #79caa1 !important;
+}
+
+.text-shadow-green {
+  text-shadow: 3px 3px #d9fceb;
+}
+
+.bg-medium-blue {
+  background-color: #dbe7fe !important;
+}
+
+.color-dark-blue {
+  color: #1e247e !important;
+}
+
+.color-dark-brown {
+  color: #7d4f1e !important;
+}
+
+.bg-medium-red {
+  background-color: #fee8db !important;
+}
+
+.color-dark-green {
+  color: #1e7d3d !important;
+}
+
+.bg-medium-green {
+  background-color: #dbfee7 !important;
+}
+
+.color-dark-purple {
+  color: #541e7d !important;
+}
+
+.bg-medium-purple {
+  background-color: #efdbfe !important;
+}
+
+.color-dark-brown {
+  color: #7d4f1e !important;
+}
+
+.bg-light-red {
+  background-color: #ffdbdb !important;
+}
+
+.container-fluid {
+  width: 96%;
+}
+
+.mainNav {
+  padding: 15px 0px;
+  position: fixed;
+  width: 100%;
+  background: #f8faff;
+  z-index: 999;
+}
+.mainNav a.nav-link {
+  font-family: "Lexend Deca";
+  font-size: 17px;
+  text-transform: uppercase;
+}
+.mainNav .navNav {
+  gap: 15px;
+}
+.mainNav .navbar-nav .nav-link.active,
+.mainNav .navbar-nav .show > .nav-link {
+  color: rgba(0, 0, 0, 0.55);
+}
+.mainNav li.nav-item.active a {
+  color: #69aef8;
+}
+
+.elegant-homes {
+  padding-top: 110px;
+}
+.elegant-homes .eleganthomeinner-image img {
+  border-radius: 0% 0% 0% 25%;
+}
+.elegant-homes .elegant-col-content {
+  background: url("../svg/shape-1.svg") top right, url("../svg//shape-2.svg") bottom right 45%;
+  background-repeat: no-repeat;
+  border-radius: 0% 25% 0% 0%;
+  background-color: white;
+}
+.elegant-homes .elegant-col-content .elegant-inner-content h1 {
+  text-shadow: 3px 3px #dbe7fe;
+  color: #1e247e;
+  font-size: 3.529em;
+  line-height: 1.2em;
+  font-weight: 400;
+  letter-spacing: -2px;
+  font-family: "Lexend Deca";
+  max-width: 450px;
+  width: 100%;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.elegant-homes .elegant-col-content .elegant-inner-content p {
+  color: rgba(30, 36, 126, 0.7);
+  font-family: "Lexend Deca";
+  line-height: 160%;
+  font-size: 18px;
+}
+.elegant-homes .elegant-col-content .elegant-inner-content .view-properties {
+  background-color: #1e247e;
+  color: #fff;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-decoration: none;
+  outline: none;
+  font-family: "Lexend Deca";
+  vertical-align: middle;
+  text-align: center;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+.elegant-homes .elegant-col-content .elegant-inner-content .view-properties span {
+  margin-left: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #69aef8;
+  padding: 6px 10px;
+}
+.elegant-homes .elegant-col-content .elegant-inner-content .view-properties span i {
+  font-size: 16px;
+}
+.elegant-homes .elegant-col-content .elegant-inner-content .getintouch {
+  background-color: #69aef8;
+  color: #fff;
+  width: auto;
+  height: auto;
+  display: inline-block;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-decoration: none;
+  outline: none;
+  font-family: "Lexend Deca";
+  vertical-align: middle;
+  text-align: center;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.elegant-homes .elegant-col-content .elegant-inner-content .getintouch span {
+  margin-left: 10px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: white;
+  padding: 6px 10px;
+}
+.elegant-homes .elegant-col-content .elegant-inner-content .getintouch span i {
+  font-size: 16px;
+  color: #69aef8;
+}
+.elegant-homes .elegant-col-content .elegant-price {
+  margin-top: 100px;
+}
+.elegant-homes .elegant-col-content .elegant-price span {
+  color: #1e247e;
+  font-family: "Lexend Deca";
+  font-size: 18px;
+}
+.elegant-homes .elegant-col-content .elegant-price p {
+  color: #79caa1;
+  text-shadow: 3px 3px #d9fceb;
+  font-size: 57px;
+  line-height: 64px;
+  font-family: "Lexend Deca";
+  margin-top: 20px;
+}
+
+.we-handle-everything .we-handle-head h2 {
+  font-size: 3.5em;
+  line-height: 1.2em;
+  font-family: "Lexend Deca";
+  margin-bottom: 20px;
+}
+.we-handle-everything .we-handle-head p {
+  color: rgba(30, 36, 126, 0.7);
+  font-family: "Lexend Deca";
+  line-height: 160%;
+  font-size: 18px;
+  max-width: 700px;
+  width: 100%;
+}
+.we-handle-everything .we-handle-innerdiv h3 {
+  font-size: 2em;
+  line-height: 1.2em;
+  font-family: "Lexend Deca";
+  margin: 20px 0px;
+}
+.we-handle-everything .we-handle-innerdiv p {
+  color: rgba(30, 36, 126, 0.7);
+  font-family: "Lexend Deca";
+  line-height: 160%;
+  font-size: 18px;
+}
+
+.want-to-sell-home .in-want-to-sell {
+  padding: 100px;
+  background: url("../svg/shape-3.svg") no-repeat, url("../svg/shape-4.svg") right bottom no-repeat;
+  background-color: white;
+  border-radius: 0% 200px 0% 200px;
+}
+.want-to-sell-home .in-want-to-sell .inner-want-to-sell .inner-want-to-sell-home i {
+  color: rgba(30, 36, 126, 0.7);
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+.want-to-sell-home .in-want-to-sell .inner-want-to-sell .inner-want-to-sellcontent .inner-wantosellcontent1 {
+  padding-right: 15px;
+}
+.want-to-sell-home .in-want-to-sell .inner-want-to-sell .inner-want-to-sellcontent .inner-wantosellcontent1 h2 {
+  font-size: 1.765em;
+  font-family: "Lexend Deca";
+  line-height: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+.want-to-sell-home .in-want-to-sell .inner-want-to-sell .inner-want-to-sellcontent .inner-wantosellcontent1 p {
+  color: rgba(30, 36, 126, 0.7);
+  font-family: "Lexend Deca";
+  line-height: 160%;
+  font-size: 18px;
+}
+.want-to-sell-home .in-want-to-sell .inner-want-to-sell .inner-want-to-sellcontent .inner-wantosellcontent2 .inner-this-want-to-sell {
+  background-color: #69aef8;
+  color: #fff;
+  width: auto;
+  height: auto;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  text-decoration: none;
+  outline: none;
+  text-align: center;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.want-to-sell-home .more-want-to-sell .inner-content-more-want-tosell h2 {
+  font-size: 4rem;
+  font-family: "Lexend Deca";
+  font-weight: 400;
+  line-height: 1.2em;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+}
+.want-to-sell-home .more-want-to-sell .inner-content-more-want-tosell p {
+  color: rgba(30, 36, 126, 0.7);
+  font-family: "Lexend Deca";
+  line-height: 160%;
+  font-size: 22px;
+}
+.want-to-sell-home .more-want-to-sell .inner-content-more-want-tosell span {
+  color: rgba(30, 36, 126, 0.7);
+  font-family: "Lexend Deca";
+  line-height: 160%;
+  font-size: 16px;
+}
+.want-to-sell-home .more-want-to-sell .inner-content-images-list ul li:nth-child(2) {
+  position: relative;
+  left: -10px;
+  width: 36px;
+  height: 36px;
+}
+.want-to-sell-home .more-want-to-sell .inner-content-images-list ul li:nth-child(3) {
+  position: relative;
+  left: -20px;
+  width: 36px;
+  height: 36px;
+}
+.want-to-sell-home .more-want-to-sell .inner-content-images-list ul li:nth-child(4) {
+  position: relative;
+  left: -30px;
+  width: 36px;
+  height: 36px;
+}
+.want-to-sell-home .more-want-to-sell .inner-content-images-list ul li:nth-child(4) {
+  position: relative;
+  left: -30px;
+  width: 36px;
+  height: 36px;
+}
+.want-to-sell-home .more-want-to-sell .inner-content-images-list ul li:nth-child(5) {
+  position: relative;
+  left: -40px;
+  width: 36px;
+  height: 36px;
+}
+.want-to-sell-home .more-want-to-sell .inner-content-images-list ul li:nth-child(6) {
+  position: relative;
+  left: -10px;
+}
+.want-to-sell-home .more-want-to-sell .inner-content-images-list ul li:nth-child(6) .reviews {
+  color: rgba(30, 36, 126, 0.7);
+}
+.want-to-sell-home .more-want-to-sell .inner-content-images-list ul li img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.want-to-sell-home .more-want-to-sell .inner-content-images-list ul li .inner-views {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #69aef8;
+  border: 2px solid #fff;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+.want-to-sell-home .more-want-to-sell .more-want-to-sell-price .more-want-price p {
+  font-size: 37px;
+  line-height: 42px;
+}
+.want-to-sell-home .more-want-to-sell .more-want-to-sell-price .more-want-price span {
+  color: rgba(30, 36, 126, 0.7);
+  font-family: "Lexend Deca";
+  line-height: 160%;
+  font-size: 16px;
+}
+.want-to-sell-home .more-want-to-sell .more-want-to-sell-images {
+  margin-top: -50px;
+}
+.want-to-sell-home .more-want-to-sell .more-want-to-sell-images img {
+  border-radius: 0 0 0 200px;
+}
+
+.our-featured-properties {
+  background: url("../svg/shape-5.svg") no-repeat top left, url("../svg/shape-6.svg") no-repeat bottom right;
+}
+.our-featured-properties .our-featured-head h2 {
+  font-size: 3.5em;
+  line-height: 1.2em;
+  font-weight: 400;
+  max-width: 550px;
+  width: 100%;
+}
+.our-featured-properties .our-featured-head p {
+  font-size: 1.235em;
+  line-height: 35px;
+  color: rgba(30, 36, 126, 0.7);
+  max-width: 820px;
+  width: 100%;
+  margin: 20px 0px;
+}
+.our-featured-properties .our-featured-rows .our-featured-images img {
+  border-radius: 8px;
+}
+.our-featured-properties .our-featured-rows .our-featured-images span {
+  top: 0;
+  left: 30px;
+  background-color: #79caa1;
+  color: #fff;
+  margin-top: -20px;
+  padding: 0 20px;
+  font-size: 0.882em;
+  line-height: 40px;
+  text-transform: uppercase;
+  z-index: 99;
+}
+.our-featured-properties .our-featured-rows .our-featured-images span::after {
+  content: "";
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 0 0 10px;
+  position: absolute;
+  right: -10px;
+  top: 0;
+  border-color: transparent transparent transparent #009543;
+}
+.our-featured-properties .our-featured-rows .our-featured-content .our-featured-location span {
+  font-family: "Lexend Deca";
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(30, 36, 126, 0.7);
+  margin-bottom: 10px;
+}
+.our-featured-properties .our-featured-rows .our-featured-content .our-featured-name h2 {
+  font-size: 3em;
+  line-height: 1.2em;
+  letter-spacing: -2px;
+  font-weight: 400;
+}
+.our-featured-properties .our-featured-rows .our-featured-content .our-featured-price {
+  margin-bottom: 10px;
+}
+.our-featured-properties .our-featured-rows .our-featured-content .our-featured-price span {
+  font-size: 37px;
+  line-height: 42px;
+}
+.our-featured-properties .our-featured-rows .our-featured-content .our-featured-emmentities li .our-featured-emmentiy {
+  background-color: #dbe7fe;
+  color: rgba(30, 36, 126, 0.7);
+  padding: 20px 10px;
+  border-radius: 8px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 18px;
+}
+.our-featured-properties .our-featured-rows .our-featured-content .our-featured-emmentities li .our-featured-emmentiy i {
+  margin-bottom: 10px;
+}
+.our-featured-properties .our-featured-rows .our-featured-content .our-featuredcontent p {
+  font-family: "Lexend Deca";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.85em;
+  letter-spacing: 0px;
+  color: rgba(30, 36, 126, 0.7);
+  margin-bottom: 10px;
+}
+.our-featured-properties .our-featured-rows .our-featured-content .our-featured-buttons {
+  gap: 15px;
+}
+.our-featured-properties .our-featured-rows .our-featured-content .our-featured-buttons .take-tour {
+  background-color: #1e247e;
+  color: #fff;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: baseline;
+}
+.our-featured-properties .our-featured-rows .our-featured-content .our-featured-buttons .take-tour i {
+  background-color: #69aef8 !important;
+  padding: 8px 10px;
+  margin-left: 10px;
+  border-radius: 50%;
+}
+.our-featured-properties .our-featured-rows .our-featured-content .our-featured-buttons .share-button span {
+  background-color: #69aef8;
+  color: #fff;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 24px;
+  line-height: 30px;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+.services .inner-services {
+  padding: 100px;
+  background-color: white;
+  border-radius: 0px 200px 0px 200px;
+}
+.services .inner-services .our-services-head h2 {
+  font-size: 3.5em;
+  line-height: 1.2em;
+  font-weight: 400;
+  text-shadow: 3px 3px #dbe7fe;
+  margin-bottom: 20px;
+}
+.services .inner-services .our-services-head p {
+  font-size: 1.235em;
+  line-height: 35px;
+  color: rgba(30, 36, 126, 0.7);
+  margin: 20px 0px;
+  max-width: 540px;
+  width: 100%;
+}
+.services .inner-services .serives-inner-services div {
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 4px;
+}
+.services .inner-services .serives-inner-services div i {
+  font-size: 24px;
+  line-height: 65px;
+}
+.services .inner-services .serives-inner-services h3 {
+  text-shadow: 1px 1px #dbe7fe;
+  font-size: 1.412em;
+  line-height: 1.2em;
+  margin: 20px 0px;
+}
+.services .inner-services .serives-inner-services p {
+  font-size: 1em;
+  line-height: 35px;
+  color: rgba(30, 36, 126, 0.7);
+  margin: 20px 0px;
+  max-width: 540px;
+  width: 100%;
+}
+
+.what-out-client-say {
+  margin-top: -50px;
+}
+.what-out-client-say .what-client-say-content {
+  padding: 180px 0px;
+}
+.what-out-client-say .what-client-say-content .what-client-say-head h3 {
+  font-size: 2.824em;
+  line-height: 1.2em;
+  font-weight: 400;
+  text-shadow: 3px 3px #dbe7fe;
+}
+.what-out-client-say .what-client-say-content .testimonials h3 {
+  color: #79caa1;
+  text-shadow: 3px 3px #d9fceb;
+  font-size: 1.765em;
+  font-weight: 400;
+  line-height: 36px;
+  margin: 20px 0px;
+}
+.what-out-client-say .what-client-say-content .testimonials p {
+  font-size: 1.118em;
+  line-height: 38px;
+  color: rgba(30, 36, 126, 0.7);
+  width: 800px;
+  padding: 0px 10px 30px 10px;
+}
+.what-out-client-say .what-client-say-images {
+  background-image: url("../images/img-6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  border-radius: 0 0 0 200px;
+}
+
+.recent-news .recent-news-head h2 {
+  font-size: 3.5em;
+  line-height: 1.2em;
+  text-shadow: 3px 3px #dbe7fe;
+  font-weight: 400px;
+}
+.recent-news .recent-news-head p {
+  font-size: 1.118em;
+  line-height: 38px;
+  color: rgba(30, 36, 126, 0.7);
+  width: 720px;
+  padding: 20px 0px;
+}
+.recent-news .recent-news-main-content .news .news-img img {
+  border-radius: 8px;
+}
+.recent-news .recent-news-main-content .news .news-content {
+  z-index: 9;
+  background-color: #f8faff;
+  position: relative;
+  top: -100px;
+}
+.recent-news .recent-news-main-content .news .news-content .news-badge span {
+  padding: 10px 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 0.882em;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  background-color: #69aef8;
+  color: #fff;
+}
+.recent-news .recent-news-main-content .news .news-content .news-title p {
+  margin: 15px 0px;
+}
+.recent-news .recent-news-main-content .news .news-content .news-title p a {
+  transition: all 0.4s ease-in-out;
+  font-size: 34px;
+  line-height: 40px;
+  text-shadow: 1px 1px #dbe7fe;
+  text-decoration: none;
+  color: #1e247e;
+}
+.recent-news .recent-news-main-content .news .news-content .news-title p a:hover {
+  color: #69aef8;
+  transition: all 0.4s ease-in-out;
+}
+.recent-news .recent-news-main-content .news .news-content .news-description p {
+  font-size: 1em;
+  line-height: 38px;
+  color: rgba(30, 36, 126, 0.7);
+}
+.recent-news .recent-news-main-content .news .news-content .news-posted-by img {
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.recent-news .recent-news-main-content .news .news-content .news-posted-by .news-posted-name .nameofuser {
+  color: #1e247e;
+  font-size: 1em;
+  text-shadow: 1px 1px #dbe7fe;
+  line-height: 1em;
+  margin: 0;
+}
+.recent-news .recent-news-main-content .news .news-content .news-posted-by .news-posted-name .posted-date {
+  color: rgba(30, 36, 126, 0.7);
+  font-size: 1em;
+  text-shadow: 1px 1px #dbe7fe;
+  line-height: 1em;
+  margin: 0;
+}
+
+.get-in-touch .get-in-touch-inner {
+  padding: 100px;
+  border-radius: 0 200px 0 200px;
+  background: url("../svg/shape-9.svg") top 5% left 5%, url("../svg/shape-10.svg") bottom -5% right -5%;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+.get-in-touch .get-in-touch-inner .get-in-touch-head h2 {
+  font-size: 3.5em;
+  line-height: 1.2em;
+  font-weight: 400;
+  text-shadow: 3px 3px #dbe7fe;
+}
+.get-in-touch .get-in-touch-inner .get-in-touch-head p {
+  color: rgba(30, 36, 126, 0.7);
+  max-width: 630px;
+  width: 100%;
+  margin: auto;
+  padding: 20px 0px 30px 0px;
+  font-size: 1.235em;
+  line-height: 35px;
+}
+.get-in-touch .get-in-touch-inner .get-in-touch-form #submitBtn {
+  background-color: #1e247e;
+  color: #fff;
+  display: inline-block;
+  padding: 15px 20px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.get-in-touch .get-in-touch-inner .get-in-touch-form #submitBtn .inner-share-button {
+  background: #69aef8;
+  padding: 7px;
+  margin-left: 10px;
+  border-radius: 90%;
+}
+.get-in-touch .get-in-touch-inner .inner-form-address-section {
+  padding-top: 100px;
+}
+.get-in-touch .get-in-touch-inner .inner-form-address-section .address a {
+  text-decoration: none;
+}
+.get-in-touch .get-in-touch-inner .inner-form-address-section .address p {
+  color: rgba(30, 36, 126, 0.7);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 1.85em;
+  letter-spacing: 0px;
+}
+
+#footer .footer-social-icons ul {
+  gap: 20px;
+}
+#footer .footer-social-icons ul i {
+  font-size: 23px;
+}
+#footer .copyright-para p {
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .container-fluid {
+    width: 100%;
+  }
+}/*# sourceMappingURL=style.css.map */
